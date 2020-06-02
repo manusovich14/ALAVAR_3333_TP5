@@ -4,6 +4,11 @@ import java.time.LocalDate;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Clase Estadio representa a un estadio de futbol
+ * @author manus
+ *
+ */
 @Component
 public class Estadio {
 	private String nombre;
@@ -12,10 +17,21 @@ public class Estadio {
 	private int capacidad;
 	private String direccion;
 	
+	/**
+	 * Constructor por defecto
+	 */
 	public Estadio() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	/**
+	 * Constructor Parametrizado
+	 * @param nombre
+	 * @param fechaFundacion
+	 * @param cuidad
+	 * @param capacidad
+	 * @param direccion
+	 */
 	public Estadio(String nombre, LocalDate fechaFundacion, String cuidad, int capacidad, String direccion) {
 		this.nombre = nombre;
 		this.fechaFundacion = fechaFundacion;
