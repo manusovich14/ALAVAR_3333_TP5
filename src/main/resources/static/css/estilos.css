@@ -1,0 +1,174 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+	background: #999999;
+	color:#ffffff;
+}
+
+#contenedor{
+    background: #999999;
+    width:960px;
+    margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+header{
+	height:150px;
+	background: #003cff;
+}
+
+header h1{
+	font-size:50px;
+	text-align: center;
+	line-height: 150px;
+}
+
+nav{
+    background: #93a6e7;
+    height: 60px;
+}
+
+nav ul li{
+    color:#003cff;
+	list-style: none;
+	display: inline-block;
+    padding:10px;
+    margin-top: 12px;
+}
+
+nav h2{
+	font-size:40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+/*INDEX*/
+#contenido{
+    background: white;
+	width:700px;
+	height:500px;
+	float: left;
+    overflow: scroll;
+    margin-top: 10px; 
+} 
+
+#contenido h2{
+    background: #003cff;
+    margin: 0.6em;
+    margin-right: 0.6em;
+    margin-bottom: 1em;
+	color: black;
+}
+
+#cont-article{
+    display: flex;
+    
+}
+#cont-article article{
+    padding:0.5em;
+    margin: 1em;
+    width: 175px;
+    height: 225px; 
+    border: 3px solid #003cff;
+}
+
+/*EQUIPOS*/
+#cont-titulo h2{
+    text-align: center;
+}
+
+#cont-article img{
+    width: 175px;
+    height: 125px;
+}
+#cont-article-fecha p{
+    margin-top:10px;
+    margin-bottom:10px; 
+}
+
+#cont-article article p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: black;
+    text-align: justify;
+    font-family: Helvetica;
+}
+
+/*FIXTURE*/
+table {
+    
+    color: black;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 3em;
+  }
+  
+  td, th {
+ 
+    text-align: left;
+    padding: 6px;
+  }
+
+  #cont-article-table img{
+      width: 25px;
+      height: 25px;
+      float:left;
+      margin-right: 0.75em;
+  }
+  
+  #cont-article-info img{
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+  }
+  #cont-article-info p{
+    text-align: justify;
+    color: black;
+    margin:2em;
+}
+
+/*ASIDE*/
+aside{
+	width:250px;
+	height:500px;
+	background: white;
+	margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    float:right;
+}
+
+aside h2{
+    font-size: 20px;
+    margin: 0.6em;
+    background: #003cff;
+    color:black;
+}
+
+#cont-aside-img{
+    margin-top: 3em;
+}
+
+aside img{
+    width: 175px;
+    height: 100px;
+}
+
+footer{
+	background: #003cff;
+	height:40px;
+    clear: both;
+}
+
+footer h2{
+	text-align: center;
+    font-size:12px;
+    padding: 1em;
+}

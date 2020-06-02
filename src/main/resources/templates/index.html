@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>Liga de Futbol Profesional</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fixture.html">Fixture y resultados</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
+            </ul>
+            <div id="welcome">
+            	 <h4 th:text = " 'Bienvenido! ' + ${usuario} "></h4> 
+            </div>
+        </nav>
+        <section id="contenido">
+            <h2>Noticias</h2>
+            <div id="cont-article">                
+                <article>
+                    <img src="./img/partidos-suspendidos.jpg">
+                    <div id="cont-article-fecha">
+                        <p>12-03-2020</p>
+                    </div>                   
+                    <p>Nueva noticia de los partidos suspendidos por la cuarentena<p>
+
+                </article>
+                <article>
+                    <img src="./img/repeticion-partidos.jpg">
+                    <div id="cont-article-fecha">
+                        <p>12-03-2020</p>
+                    </div>
+                    <p>Repetición de la transmición en vivo anual de profesiona <p>
+                </article>
+                <article>
+                    <img src="./img/reprogramacion-partidos.jpg">
+                    <div id="cont-article-fecha">
+                        <p>12-03-2020</p>
+                    </div>
+                    <p>Repetición de la transmición en vivo anual de profesiona <p>
+                </article>
+            </div>
+        </section>
+        <aside>
+            <h2>Auspiciantes</h2>
+        </aside>
+        <footer>
+            <h2>Avda. Pedro Ortiz de Zarate N 455 - Tel 388 4789555</h2>
+        </footer>
+    </div>
+</body>
+</html>
